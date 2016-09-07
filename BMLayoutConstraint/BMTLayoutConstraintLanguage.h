@@ -80,6 +80,7 @@
 #define BM_EL_US_9_0        @"el-US"      
 
 // layout constraint id ending
+#define BM_BASE_STR         @"BM_BASE"
 #define BM_EN_US_STR        @"BM_EN_US"
 #define BM_ZH_HANS_US_STR   @"BM_ZH_HANS_US"
 #define BM_ZH_HANT_US_STR   @"BM_ZH_HANT_US"
@@ -135,5 +136,7 @@
 @property (nonatomic, copy, readonly) NSDictionary *preferredLanguagesDict;
 
 @property (nonatomic, copy, readonly) NSDictionary *defaultLanguagesDict;
+
+- (NSString *)getLayoutConstraintDefaultDeviceLanguage;
 
 @end

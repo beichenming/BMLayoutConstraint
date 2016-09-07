@@ -92,6 +92,16 @@
 }
 
 - (NSString *)getLayoutConstraintDeviceLanguageWithViewConstraintId:(NSString *)viewConstraintId {
+    // exist common layout constraint
+    NSString *defaultConstraintDeviceLanguage =
+    [self.layoutConstraintLanguage getLayoutConstraintDefaultDeviceLanguage];
+    NSString *defaultViewConstraintId =
+    [NSString stringWithFormat:@"%@_%@", viewConstraintId, defaultConstraintDeviceLanguage];
+    if ([self cacheConstraintMapDictObjectForKey:defaultViewConstraintId]) {
+        return defaultViewConstraintId;
+    }
+    
+    // find mutal language layout constraint
     NSArray *languageArray = [NSLocale preferredLanguages];
     for (NSString *language in languageArray) {
         NSString *constraintDeviceLanguage =
@@ -103,6 +113,7 @@
         }
     }
     
+    // user default Language
     NSString *defaultLanguage =
     [[[NSBundle mainBundle]infoDictionary] objectForKey:@"CFBundleDevelopmentRegion"];
     NSString *constraintDeviceLanguage =

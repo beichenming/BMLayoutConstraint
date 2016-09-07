@@ -113,4 +113,8 @@
   return self;
 }
 
+- (NSString *)getLayoutConstraintDefaultDeviceLanguage {
+  return BM_BASE_STR;
+}
+
 @end
