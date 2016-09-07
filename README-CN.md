@@ -19,6 +19,21 @@ BMLayoutConstraint还在不断完善中，欢迎大家一起。
 - iOS 8+
 - Xcode 6+
 
+## 安装
+
+### CocoaPods    
+
+```ruby
+pod 'BMLayoutConstraint'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+
 ## 语言
 [英文](https://github.com/beichenming/BMLayoutConstraint/blob/master/README.md)
 
@@ -103,5 +118,5 @@ json配置文件格式是通过每一个控件都有自己的唯一ID，每个ID
   												                     andCompletionCallback:nil];
 ```
 
-## 博客
-[博客](http://www.jianshu.com/users/5d1e6bd11aa0)
+## 作者
+[北辰明](http://www.jianshu.com/users/5d1e6bd11aa0)

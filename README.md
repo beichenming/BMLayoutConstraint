@@ -19,6 +19,21 @@ BMLayoutConstraint is still in development, welcome to improve the project toget
 - iOS 8+
 - Xcode 6+
 
+## Installation
+
+### CocoaPods    
+
+```ruby
+pod 'BMLayoutConstraint'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+
 ## Language
 [中文说明](https://github.com/beichenming/BMLayoutConstraint/blob/master/README-CN.md)
 
@@ -104,6 +119,7 @@ Second: The same device under the adaptation of each language are the same, then
   												                     andCompletionCallback:nil];
 ```
 
-## Blog
-[My Blog](http://www.jianshu.com/users/5d1e6bd11aa0)
+## Author
+
+[beichenming](http://www.jianshu.com/users/5d1e6bd11aa0)
 
