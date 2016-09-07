@@ -16,7 +16,7 @@ BMLayoutConstraint is still in development, welcome to improve the project toget
 - Xcode 6+
 
 ## Language
-[中文说明](https://github.com/beichenming/BMLayoutConstraint/blob/master/README-CH.md)
+[中文说明](https://github.com/beichenming/BMLayoutConstraint/blob/master/README-CN.md)
 
 
 ## Example
