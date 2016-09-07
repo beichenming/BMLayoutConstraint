@@ -4,6 +4,9 @@
 
 <p align="center">
 <a href="https://travis-ci.org/beichenming/BMLayoutConstraint"><img src="https://travis-ci.org/beichenming/BMLayoutConstraint.svg?branch=master"></a>
+<a href="https://img.shields.io/cocoapods/v/BMLayoutConstraint.svg"><img src="https://img.shields.io/cocoapods/v/BMLayoutConstraint.svg"></a>
+<a href="https://img.shields.io/cocoapods/v/BMLayoutConstraint.svg"><img src="https://img.shields.io/github/license/beichenming/BMLayoutConstraint.svg?style=flat"></a>
+<a href="http://cocoadocs.org/docsets/BMLayoutConstraint"><img src="https://img.shields.io/cocoapods/p/BMLayoutConstraint.svg?style=flat"></a>
 <a href="http://beichenming.me"><img src="https://img.shields.io/badge/Blog-@%E5%8C%97%E8%BE%B0%E6%98%8E-red.svg?style=flat"></a>
 </p>
 
