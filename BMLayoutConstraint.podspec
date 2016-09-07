@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.authors      = { "beichenming" => "beichenming@163.com" }
     s.platform     = :ios, '8.0'
     s.source       = { :git => "https://github.com/beichenming/BMLayoutConstraint.git", :tag => "1.0.1" }
-    s.source_files = 'BMLayoutConstraint/*.{h,m}'
+    s.source_files = 'BMLayoutConstraint/*'
     s.framework    = 'UIKit','Foundation'
     s.requires_arc = true
 end
