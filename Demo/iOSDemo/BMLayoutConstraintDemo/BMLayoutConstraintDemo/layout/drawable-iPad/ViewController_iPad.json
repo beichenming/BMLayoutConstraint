@@ -1,0 +1,129 @@
+{
+    "UILabel" :
+    [
+         {
+             "bm_ViewControllerPhoneNoLabelID_BM_ZH_HANS_US" :
+             {
+                 "marginLeft" : 100.0,
+                 "marginRight" : 0.0,
+                 "marginTop" : 300.0,
+                 "marginBottom" : 0.0,
+                 "width" : 250.0,
+                 "height" : 30.0,
+                 "fontSize" : 32.0
+             }
+         },
+         {
+             "bm_ViewControllerPhoneNoLabelID_BM_EN_US" :
+             {
+                 "marginLeft" : 50.0,
+                 "marginRight" : 0.0,
+                 "marginTop" : 300.0,
+                 "marginBottom" : 0.0,
+                 "width" : 250.0,
+                 "height" : 30.0,
+                 "fontSize" : 32.0
+             }
+         },
+         {
+             "bm_ViewControllerPasswordLabelID_BM_ZH_HANS_US" :
+             {
+                 "marginLeft" :100.0,
+                 "marginRight" : 0.0,
+                 "marginTop" : 400.0,
+                 "marginBottom" : 0.0,
+                 "width" : 250.0,
+                 "height" : 30.0,
+                 "fontSize" : 32.0
+             }
+         },
+         {
+             "bm_ViewControllerPasswordLabelID_BM_EN_US" :
+             {
+                 "marginLeft" : 50.0,
+                 "marginRight" : 0.0,
+                 "marginTop" : 400.0,
+                 "marginBottom" : 0.0,
+                 "width" : 250.0,
+                 "height" : 30.0,
+                 "fontSize" : 32.0
+             }
+         }
+     ],
+    "UIButton" :
+    [
+         {
+             "bm_ViewControllerLoginBtnID_BM_ZH_HANS_US":
+             {
+                 "marginLeft" : 280.0,
+                 "marginRight" : 0.0,
+                 "marginTop" : 500.0,
+                 "marginBottom" : 0.0,
+                 "width" : 200.0,
+                 "height" : 40.0,
+                 "fontSize" : 30.0,
+                 "cornerRadius" : 20.0
+             }
+         },
+         {
+             "bm_ViewControllerLoginBtnID_BM_EN_US":
+             {
+                 "marginLeft" : 280.0,
+                 "marginRight" : 0.0,
+                 "marginTop" : 500.0,
+                 "marginBottom" : 0.0,
+                 "width" : 200.0,
+                 "height" : 40.0,
+                 "fontSize" : 30.0,
+                 "cornerRadius" : 20.0
+             }
+         }
+     ],
+    "UITextField" :
+    [
+         {
+             "bm_ViewControllerAccountTextFieldID_BM_ZH_HANS_US":
+             {
+                 "marginLeft" : 250.0,
+                 "marginRight" : 0.0,
+                 "marginTop" : 300.0,
+                 "marginBottom" : 0.0,
+                 "width" : 300.0,
+                 "height" : 40.0
+             }
+         },
+         {
+             "bm_ViewControllerAccountTextFieldID_BM_EN_US":
+             {
+                 "marginLeft" : 300.0,
+                 "marginRight" : 0.0,
+                 "marginTop" : 300.0,
+                 "marginBottom" : 0.0,
+                 "width" : 300.0,
+                 "height" : 40.0
+             }
+         },
+         {
+             "bm_ViewControllerPasswordTextFieldID_BM_ZH_HANS_US":
+             {
+                 "marginLeft" : 250.0,
+                 "marginRight" : 0.0,
+                 "marginTop" : 400.0,
+                 "marginBottom" : 0.0,
+                 "width" : 300.0,
+                 "height" : 40.0
+             }
+         },
+         {
+             "bm_ViewControllerPasswordTextFieldID_BM_EN_US":
+             {
+                 "marginLeft" : 300.0,
+                 "marginRight" : 0.0,
+                 "marginTop" : 400.0,
+                 "marginBottom" : 0.0,
+                 "width" : 300.0,
+                 "height" : 40.0
+             }
+         }
+     ]
+}

@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5864109A1D7FA14000C3DFAB /* BMTLayoutConstraintBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 586410901D7FA14000C3DFAB /* BMTLayoutConstraintBase.m */; };
+		5864109B1D7FA14000C3DFAB /* BMTLayoutConstraintConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 586410921D7FA14000C3DFAB /* BMTLayoutConstraintConstant.m */; };
+		5864109C1D7FA14000C3DFAB /* BMTLayoutConstraintInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 586410941D7FA14000C3DFAB /* BMTLayoutConstraintInterpreter.m */; };
+		5864109D1D7FA14000C3DFAB /* BMTLayoutConstraintLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 586410961D7FA14000C3DFAB /* BMTLayoutConstraintLanguage.m */; };
+		5864109E1D7FA14000C3DFAB /* UIView+LayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 586410991D7FA14000C3DFAB /* UIView+LayoutConstraint.m */; };
+		589C3DF61D7D92C100E4764A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 589C3DF51D7D92C100E4764A /* main.m */; };
+		589C3DF91D7D92C100E4764A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 589C3DF81D7D92C100E4764A /* AppDelegate.m */; };
+		589C3E041D7D92C100E4764A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589C3E031D7D92C100E4764A /* Assets.xcassets */; };
+		589C3E281D7D9DC400E4764A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589C3E271D7D9DC400E4764A /* ViewController.m */; };
+		589C3E301D7DA08A00E4764A /* ViewController_iPad.json in Resources */ = {isa = PBXBuildFile; fileRef = 589C3E2F1D7DA08A00E4764A /* ViewController_iPad.json */; };
+		589C3E321D7DA0BA00E4764A /* ViewController_iPhone5_S_C_SE.json in Resources */ = {isa = PBXBuildFile; fileRef = 589C3E311D7DA0BA00E4764A /* ViewController_iPhone5_S_C_SE.json */; };
+		589C3E341D7DA0D200E4764A /* ViewController_iPhone6_S.json in Resources */ = {isa = PBXBuildFile; fileRef = 589C3E331D7DA0D200E4764A /* ViewController_iPhone6_S.json */; };
+		589C3E361D7DA0E700E4764A /* ViewController_iPhone6P_S.json in Resources */ = {isa = PBXBuildFile; fileRef = 589C3E351D7DA0E700E4764A /* ViewController_iPhone6P_S.json */; };
+		589C3E391D7DA1E100E4764A /* UIControlConstantID.m in Sources */ = {isa = PBXBuildFile; fileRef = 589C3E381D7DA1E100E4764A /* UIControlConstantID.m */; };
+		589C3E4C1D7E56E200E4764A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589C3E4A1D7E56E200E4764A /* LaunchScreen.xib */; };
+		589C3E4F1D7E573700E4764A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 589C3E511D7E573700E4764A /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5864108E1D7FA14000C3DFAB /* BMLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLayoutConstraint.h; sourceTree = "<group>"; };
+		5864108F1D7FA14000C3DFAB /* BMTLayoutConstraintBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTLayoutConstraintBase.h; sourceTree = "<group>"; };
+		586410901D7FA14000C3DFAB /* BMTLayoutConstraintBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTLayoutConstraintBase.m; sourceTree = "<group>"; };
+		586410911D7FA14000C3DFAB /* BMTLayoutConstraintConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTLayoutConstraintConstant.h; sourceTree = "<group>"; };
+		586410921D7FA14000C3DFAB /* BMTLayoutConstraintConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTLayoutConstraintConstant.m; sourceTree = "<group>"; };
+		586410931D7FA14000C3DFAB /* BMTLayoutConstraintInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTLayoutConstraintInterpreter.h; sourceTree = "<group>"; };
+		586410941D7FA14000C3DFAB /* BMTLayoutConstraintInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTLayoutConstraintInterpreter.m; sourceTree = "<group>"; };
+		586410951D7FA14000C3DFAB /* BMTLayoutConstraintLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTLayoutConstraintLanguage.h; sourceTree = "<group>"; };
+		586410961D7FA14000C3DFAB /* BMTLayoutConstraintLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTLayoutConstraintLanguage.m; sourceTree = "<group>"; };
+		586410981D7FA14000C3DFAB /* UIView+LayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutConstraint.h"; sourceTree = "<group>"; };
+		586410991D7FA14000C3DFAB /* UIView+LayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutConstraint.m"; sourceTree = "<group>"; };
+		589C3DF11D7D92C100E4764A /* BMLayoutConstraintDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMLayoutConstraintDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		589C3DF51D7D92C100E4764A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		589C3DF71D7D92C100E4764A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		589C3DF81D7D92C100E4764A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		589C3E031D7D92C100E4764A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		589C3E081D7D92C100E4764A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589C3E261D7D9DC400E4764A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		589C3E271D7D9DC400E4764A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		589C3E2F1D7DA08A00E4764A /* ViewController_iPad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ViewController_iPad.json; sourceTree = "<group>"; };
+		589C3E311D7DA0BA00E4764A /* ViewController_iPhone5_S_C_SE.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ViewController_iPhone5_S_C_SE.json; sourceTree = "<group>"; };
+		589C3E331D7DA0D200E4764A /* ViewController_iPhone6_S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ViewController_iPhone6_S.json; sourceTree = "<group>"; };
+		589C3E351D7DA0E700E4764A /* ViewController_iPhone6P_S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ViewController_iPhone6P_S.json; sourceTree = "<group>"; };
+		589C3E371D7DA1E100E4764A /* UIControlConstantID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlConstantID.h; sourceTree = "<group>"; };
+		589C3E381D7DA1E100E4764A /* UIControlConstantID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlConstantID.m; sourceTree = "<group>"; };
+		589C3E4B1D7E56E200E4764A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		589C3E4D1D7E570A00E4764A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		589C3E4E1D7E571B00E4764A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		589C3E501D7E573700E4764A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		589C3E521D7E573A00E4764A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		589C3DEE1D7D92C100E4764A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5864108D1D7FA14000C3DFAB /* BMLayoutConstraint */ = {
+			isa = PBXGroup;
+			children = (
+				5864108E1D7FA14000C3DFAB /* BMLayoutConstraint.h */,
+				5864108F1D7FA14000C3DFAB /* BMTLayoutConstraintBase.h */,
+				586410901D7FA14000C3DFAB /* BMTLayoutConstraintBase.m */,
+				586410911D7FA14000C3DFAB /* BMTLayoutConstraintConstant.h */,
+				586410921D7FA14000C3DFAB /* BMTLayoutConstraintConstant.m */,
+				586410931D7FA14000C3DFAB /* BMTLayoutConstraintInterpreter.h */,
+				586410941D7FA14000C3DFAB /* BMTLayoutConstraintInterpreter.m */,
+				586410951D7FA14000C3DFAB /* BMTLayoutConstraintLanguage.h */,
+				586410961D7FA14000C3DFAB /* BMTLayoutConstraintLanguage.m */,
+				586410971D7FA14000C3DFAB /* Extension */,
+			);
+			name = BMLayoutConstraint;
+			path = ../../../BMLayoutConstraint;
+			sourceTree = "<group>";
+		};
+		586410971D7FA14000C3DFAB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				586410981D7FA14000C3DFAB /* UIView+LayoutConstraint.h */,
+				586410991D7FA14000C3DFAB /* UIView+LayoutConstraint.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		589C3DE81D7D92C100E4764A = {
+			isa = PBXGroup;
+			children = (
+				5864108D1D7FA14000C3DFAB /* BMLayoutConstraint */,
+				589C3DF31D7D92C100E4764A /* BMLayoutConstraintDemo */,
+				589C3DF21D7D92C100E4764A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		589C3DF21D7D92C100E4764A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				589C3DF11D7D92C100E4764A /* BMLayoutConstraintDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		589C3DF31D7D92C100E4764A /* BMLayoutConstraintDemo */ = {
+			isa = PBXGroup;
+			children = (
+				589C3E2A1D7D9F0100E4764A /* layout */,
+				589C3DF71D7D92C100E4764A /* AppDelegate.h */,
+				589C3DF81D7D92C100E4764A /* AppDelegate.m */,
+				589C3E261D7D9DC400E4764A /* ViewController.h */,
+				589C3E271D7D9DC400E4764A /* ViewController.m */,
+				589C3E371D7DA1E100E4764A /* UIControlConstantID.h */,
+				589C3E381D7DA1E100E4764A /* UIControlConstantID.m */,
+				589C3E4A1D7E56E200E4764A /* LaunchScreen.xib */,
+				589C3E031D7D92C100E4764A /* Assets.xcassets */,
+				589C3E081D7D92C100E4764A /* Info.plist */,
+				589C3DF41D7D92C100E4764A /* Supporting Files */,
+				589C3E511D7E573700E4764A /* Localizable.strings */,
+			);
+			path = BMLayoutConstraintDemo;
+			sourceTree = "<group>";
+		};
+		589C3DF41D7D92C100E4764A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				589C3DF51D7D92C100E4764A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		589C3E2A1D7D9F0100E4764A /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				589C3E2B1D7D9F0100E4764A /* drawable-iPad */,
+				589C3E2C1D7D9F0100E4764A /* drawable-iPhone5_S_C_SE */,
+				589C3E2D1D7D9F0100E4764A /* drawable-iPhone6_S */,
+				589C3E2E1D7D9F0100E4764A /* drawable-iPhone6P_S */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		589C3E2B1D7D9F0100E4764A /* drawable-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				589C3E2F1D7DA08A00E4764A /* ViewController_iPad.json */,
+			);
+			path = "drawable-iPad";
+			sourceTree = "<group>";
+		};
+		589C3E2C1D7D9F0100E4764A /* drawable-iPhone5_S_C_SE */ = {
+			isa = PBXGroup;
+			children = (
+				589C3E311D7DA0BA00E4764A /* ViewController_iPhone5_S_C_SE.json */,
+			);
+			path = "drawable-iPhone5_S_C_SE";
+			sourceTree = "<group>";
+		};
+		589C3E2D1D7D9F0100E4764A /* drawable-iPhone6_S */ = {
+			isa = PBXGroup;
+			children = (
+				589C3E331D7DA0D200E4764A /* ViewController_iPhone6_S.json */,
+			);
+			path = "drawable-iPhone6_S";
+			sourceTree = "<group>";
+		};
+		589C3E2E1D7D9F0100E4764A /* drawable-iPhone6P_S */ = {
+			isa = PBXGroup;
+			children = (
+				589C3E351D7DA0E700E4764A /* ViewController_iPhone6P_S.json */,
+			);
+			path = "drawable-iPhone6P_S";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		589C3DF01D7D92C100E4764A /* BMLayoutConstraintDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 589C3E0B1D7D92C100E4764A /* Build configuration list for PBXNativeTarget "BMLayoutConstraintDemo" */;
+			buildPhases = (
+				589C3DED1D7D92C100E4764A /* Sources */,
+				589C3DEE1D7D92C100E4764A /* Frameworks */,
+				589C3DEF1D7D92C100E4764A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMLayoutConstraintDemo;
+			productName = BMLayoutConstraintDemo;
+			productReference = 589C3DF11D7D92C100E4764A /* BMLayoutConstraintDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		589C3DE91D7D92C100E4764A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bcm;
+				TargetAttributes = {
+					589C3DF01D7D92C100E4764A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 589C3DEC1D7D92C100E4764A /* Build configuration list for PBXProject "BMLayoutConstraintDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 589C3DE81D7D92C100E4764A;
+			productRefGroup = 589C3DF21D7D92C100E4764A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				589C3DF01D7D92C100E4764A /* BMLayoutConstraintDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		589C3DEF1D7D92C100E4764A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589C3E301D7DA08A00E4764A /* ViewController_iPad.json in Resources */,
+				589C3E041D7D92C100E4764A /* Assets.xcassets in Resources */,
+				589C3E4F1D7E573700E4764A /* Localizable.strings in Resources */,
+				589C3E4C1D7E56E200E4764A /* LaunchScreen.xib in Resources */,
+				589C3E361D7DA0E700E4764A /* ViewController_iPhone6P_S.json in Resources */,
+				589C3E321D7DA0BA00E4764A /* ViewController_iPhone5_S_C_SE.json in Resources */,
+				589C3E341D7DA0D200E4764A /* ViewController_iPhone6_S.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		589C3DED1D7D92C100E4764A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589C3E391D7DA1E100E4764A /* UIControlConstantID.m in Sources */,
+				5864109C1D7FA14000C3DFAB /* BMTLayoutConstraintInterpreter.m in Sources */,
+				5864109D1D7FA14000C3DFAB /* BMTLayoutConstraintLanguage.m in Sources */,
+				5864109A1D7FA14000C3DFAB /* BMTLayoutConstraintBase.m in Sources */,
+				589C3DF91D7D92C100E4764A /* AppDelegate.m in Sources */,
+				589C3E281D7D9DC400E4764A /* ViewController.m in Sources */,
+				5864109E1D7FA14000C3DFAB /* UIView+LayoutConstraint.m in Sources */,
+				5864109B1D7FA14000C3DFAB /* BMTLayoutConstraintConstant.m in Sources */,
+				589C3DF61D7D92C100E4764A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		589C3E4A1D7E56E200E4764A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				589C3E4B1D7E56E200E4764A /* Base */,
+				589C3E4D1D7E570A00E4764A /* zh-Hans */,
+				589C3E4E1D7E571B00E4764A /* en */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		589C3E511D7E573700E4764A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				589C3E501D7E573700E4764A /* zh-Hans */,
+				589C3E521D7E573A00E4764A /* en */,
+			);
+			name = Localizable.strings;
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		589C3E091D7D92C100E4764A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		589C3E0A1D7D92C100E4764A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		589C3E0C1D7D92C100E4764A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BMLayoutConstraintDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcm.BMLayoutConstraintDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		589C3E0D1D7D92C100E4764A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BMLayoutConstraintDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcm.BMLayoutConstraintDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		589C3DEC1D7D92C100E4764A /* Build configuration list for PBXProject "BMLayoutConstraintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589C3E091D7D92C100E4764A /* Debug */,
+				589C3E0A1D7D92C100E4764A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		589C3E0B1D7D92C100E4764A /* Build configuration list for PBXNativeTarget "BMLayoutConstraintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589C3E0C1D7D92C100E4764A /* Debug */,
+				589C3E0D1D7D92C100E4764A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 589C3DE91D7D92C100E4764A /* Project object */;
+}
