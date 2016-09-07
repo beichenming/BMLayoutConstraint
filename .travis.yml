@@ -1,0 +1,3 @@
+language: objective-c
+script:
+    - xctool test -project Demo/iOSDemo/BMLayoutConstraintDemo/BMLayoutConstraintDemo.xcodeproj -scheme BMLayoutConstraintDemo -sdk iphonesimulator
