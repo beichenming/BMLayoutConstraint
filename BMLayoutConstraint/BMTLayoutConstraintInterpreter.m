@@ -44,49 +44,49 @@
 #pragma mark - private
 
 - (NSString *)getLayoutConstraintDeviceName {
-  if (((WIDTH_SCREEN == kBMTDeviceScreenWidthIphone5 &&
-        HEIGHT_SCREEN == kBMTDeviceScreenHeightIphone5) ||
-       (WIDTH_SCREEN == kBMTDeviceScreenHeightIphone5 &&
-        HEIGHT_SCREEN == kBMTDeviceScreenWidthIphone5)) ||
-      ((WIDTH_SCREEN == kBMTDeviceScreenWidthIphone5s &&
-       HEIGHT_SCREEN == kBMTDeviceScreenHeightIphone5s) ||
-       (WIDTH_SCREEN == kBMTDeviceScreenHeightIphone5s &&
-        HEIGHT_SCREEN == kBMTDeviceScreenWidthIphone5s))) {
-    return kBMTLayoutConstraintDeviceiPhone5_S_C_SE;
-  } else if (((WIDTH_SCREEN == kBMTDeviceScreenWidthIphone6 &&
-               HEIGHT_SCREEN == kBMTDeviceScreenHeightIphone6) ||
-              (WIDTH_SCREEN == kBMTDeviceScreenHeightIphone6 &&
-               HEIGHT_SCREEN == kBMTDeviceScreenWidthIphone6)) ||
-             ((WIDTH_SCREEN == kBMTDeviceScreenWidthIphone6s &&
-              HEIGHT_SCREEN == kBMTDeviceScreenHeightIphone6s) ||
-              (WIDTH_SCREEN == kBMTDeviceScreenHeightIphone6s &&
-               HEIGHT_SCREEN == kBMTDeviceScreenWidthIphone6s))) {
-    return kBMTLayoutConstraintDeviceiPhone6_S;
-  } else if (((WIDTH_SCREEN == kBMTDeviceScreenWidthIphone6p &&
-               HEIGHT_SCREEN == kBMTDeviceScreenHeightIphone6p) ||
-              (WIDTH_SCREEN == kBMTDeviceScreenHeightIphone6p &&
-               HEIGHT_SCREEN == kBMTDeviceScreenWidthIphone6p)) ||
-              ((WIDTH_SCREEN == kBMTDeviceScreenWidthIphone6sp &&
-               HEIGHT_SCREEN == kBMTDeviceScreenHeightIphone6sp) ||
-               (WIDTH_SCREEN == kBMTDeviceScreenHeightIphone6sp &&
-                HEIGHT_SCREEN == kBMTDeviceScreenWidthIphone6sp))) {
-    return kBMTLayoutConstraintDeviceiPhone6P_S;
-  } else if ((WIDTH_SCREEN == kBMTDeviceScreenWidthIpad &&
-              HEIGHT_SCREEN == kBMTDeviceScreenHeightIpad) ||
-             (WIDTH_SCREEN == kBMTDeviceScreenHeightIpad &&
-              HEIGHT_SCREEN == kBMTDeviceScreenWidthIpad)) {
-    return kBMTLayoutConstraintDeviceiPad;
-  } else if (((WIDTH_SCREEN == kBMTDeviceScreenWidthIphone4 &&
-               HEIGHT_SCREEN == kBMTDeviceScreenHeightIphone4) ||
-              (WIDTH_SCREEN == kBMTDeviceScreenHeightIphone4 &&
-               HEIGHT_SCREEN == kBMTDeviceScreenWidthIphone4)) ||
-              ((WIDTH_SCREEN == kBMTDeviceScreenWidthIphone4s &&
-               HEIGHT_SCREEN == kBMTDeviceScreenHeightIphone4s) ||
-              (WIDTH_SCREEN == kBMTDeviceScreenHeightIphone4s &&
-               HEIGHT_SCREEN == kBMTDeviceScreenWidthIphone4s))) {
-    return kBMTLayoutConstraintDeviceiPhone4_S;
+  if (((BM_WIDTH_SCREEN == kBMDeviceScreenWidthIphone5 &&
+        BM_HEIGHT_SCREEN == kBMDeviceScreenHeightIphone5) ||
+       (BM_WIDTH_SCREEN == kBMDeviceScreenHeightIphone5 &&
+        BM_HEIGHT_SCREEN == kBMDeviceScreenWidthIphone5)) ||
+      ((BM_WIDTH_SCREEN == kBMDeviceScreenWidthIphone5s &&
+        BM_HEIGHT_SCREEN == kBMDeviceScreenHeightIphone5s) ||
+       (BM_WIDTH_SCREEN == kBMDeviceScreenHeightIphone5s &&
+        BM_HEIGHT_SCREEN == kBMDeviceScreenWidthIphone5s))) {
+    return kBMLayoutConstraintDeviceiPhone5_S_C_SE;
+  } else if (((BM_WIDTH_SCREEN == kBMDeviceScreenWidthIphone6 &&
+               BM_HEIGHT_SCREEN == kBMDeviceScreenHeightIphone6) ||
+              (BM_WIDTH_SCREEN == kBMDeviceScreenHeightIphone6 &&
+               BM_HEIGHT_SCREEN == kBMDeviceScreenWidthIphone6)) ||
+             ((BM_WIDTH_SCREEN == kBMDeviceScreenWidthIphone6s &&
+               BM_HEIGHT_SCREEN == kBMDeviceScreenHeightIphone6s) ||
+              (BM_WIDTH_SCREEN == kBMDeviceScreenHeightIphone6s &&
+               BM_HEIGHT_SCREEN == kBMDeviceScreenWidthIphone6s))) {
+    return kBMLayoutConstraintDeviceiPhone6_S;
+  } else if (((BM_WIDTH_SCREEN == kBMDeviceScreenWidthIphone6p &&
+               BM_HEIGHT_SCREEN == kBMDeviceScreenHeightIphone6p) ||
+              (BM_WIDTH_SCREEN == kBMDeviceScreenHeightIphone6p &&
+               BM_HEIGHT_SCREEN == kBMDeviceScreenWidthIphone6p)) ||
+              ((BM_WIDTH_SCREEN == kBMDeviceScreenWidthIphone6sp &&
+               BM_HEIGHT_SCREEN == kBMDeviceScreenHeightIphone6sp) ||
+               (BM_WIDTH_SCREEN == kBMDeviceScreenHeightIphone6sp &&
+                BM_HEIGHT_SCREEN == kBMDeviceScreenWidthIphone6sp))) {
+    return kBMLayoutConstraintDeviceiPhone6P_S;
+  } else if ((BM_WIDTH_SCREEN == kBMDeviceScreenWidthIpad &&
+              BM_HEIGHT_SCREEN == kBMDeviceScreenHeightIpad) ||
+             (BM_WIDTH_SCREEN == kBMDeviceScreenHeightIpad &&
+              BM_HEIGHT_SCREEN == kBMDeviceScreenWidthIpad)) {
+    return kBMLayoutConstraintDeviceiPad;
+  } else if (((BM_WIDTH_SCREEN == kBMDeviceScreenWidthIphone4 &&
+               BM_HEIGHT_SCREEN == kBMDeviceScreenHeightIphone4) ||
+              (BM_WIDTH_SCREEN == kBMDeviceScreenHeightIphone4 &&
+               BM_HEIGHT_SCREEN == kBMDeviceScreenWidthIphone4)) ||
+              ((BM_WIDTH_SCREEN == kBMDeviceScreenWidthIphone4s &&
+               BM_HEIGHT_SCREEN == kBMDeviceScreenHeightIphone4s) ||
+              (BM_WIDTH_SCREEN == kBMDeviceScreenHeightIphone4s &&
+               BM_HEIGHT_SCREEN == kBMDeviceScreenWidthIphone4s))) {
+    return kBMLayoutConstraintDeviceiPhone4_S;
   } else {
-    return kBMTLayoutConstraintDeviceiPad;  
+    return kBMLayoutConstraintDeviceiPad;  
   }
 }
 
