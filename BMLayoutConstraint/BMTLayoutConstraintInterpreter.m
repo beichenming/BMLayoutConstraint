@@ -76,8 +76,17 @@
              (WIDTH_SCREEN == kBMTDeviceScreenHeightIpad &&
               HEIGHT_SCREEN == kBMTDeviceScreenWidthIpad)) {
     return kBMTLayoutConstraintDeviceiPad;
+  } else if (((WIDTH_SCREEN == kBMTDeviceScreenWidthIphone4 &&
+               HEIGHT_SCREEN == kBMTDeviceScreenHeightIphone4) ||
+              (WIDTH_SCREEN == kBMTDeviceScreenHeightIphone4 &&
+               HEIGHT_SCREEN == kBMTDeviceScreenWidthIphone4)) ||
+              ((WIDTH_SCREEN == kBMTDeviceScreenWidthIphone4s &&
+               HEIGHT_SCREEN == kBMTDeviceScreenHeightIphone4s) ||
+              (WIDTH_SCREEN == kBMTDeviceScreenHeightIphone4s &&
+               HEIGHT_SCREEN == kBMTDeviceScreenWidthIphone4s))) {
+    return kBMTLayoutConstraintDeviceiPhone4_S;
   } else {
-    return kBMTLayoutConstraintDeviceiPad;
+    return kBMTLayoutConstraintDeviceiPad;  
   }
 }
 

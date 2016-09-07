@@ -41,12 +41,14 @@ $ pod install
 ## Example
 The premise of using BMLayoutConstraint is our UI layout using Mansory or other code layout, BMLayoutConstraint layout is not suitable for Xib or Storyboard, we have to use Demo as an example.
 
-1.We need to create a directory of the storage configuration file in the project, we create a new four directory to correspond to our device type:
+1.We need to create a directory of the storage configuration file in the project, we create a new five directory to correspond to our device type:
 <p align="left">
 <img src="device_dir.jpg" alt="BMLayoutConstraint" title="BMLayoutConstraint" width="300"/>
 </p>
 
 drawable-iPad(768 * 1024)
+
+drawable-iPhone4_S(320 * 480)
 
 drawable-iPhone5_S_C_SE(320 * 568)
 
@@ -56,7 +58,7 @@ drawable-iPhone6P_S(414 * 736)
 
 Because of the size of iPad is more, so I'm currently using a default size, if there is no match for the size, I'm use 768 * 1024. In future, I will continue to expand.
 
-2:According to the need of adaptation interface, establish the corresponding adaptation file name. For example, I will to adapt to the control layout in ViewController, so I need create four ViewController_XXX.json files end of device name.
+2:According to the need of adaptation interface, establish the corresponding adaptation file name. For example, I will to adapt to the control layout in ViewController, so I need create five ViewController_XXX.json files end of device name.
 
 JSON configuration file format is through each control has its own unique ID, each ID can be followed by a language identifier to distinguish the same device under the multi language adaptation, can be divided into two kinds of situations:
 

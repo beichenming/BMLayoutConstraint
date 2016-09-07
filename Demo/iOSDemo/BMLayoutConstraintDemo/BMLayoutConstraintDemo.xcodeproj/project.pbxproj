@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		585F92641D8028DA009132CD /* ViewController_iPhone4_S.json in Resources */ = {isa = PBXBuildFile; fileRef = 585F92631D8028DA009132CD /* ViewController_iPhone4_S.json */; };
 		5864109A1D7FA14000C3DFAB /* BMTLayoutConstraintBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 586410901D7FA14000C3DFAB /* BMTLayoutConstraintBase.m */; };
 		5864109B1D7FA14000C3DFAB /* BMTLayoutConstraintConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 586410921D7FA14000C3DFAB /* BMTLayoutConstraintConstant.m */; };
 		5864109C1D7FA14000C3DFAB /* BMTLayoutConstraintInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 586410941D7FA14000C3DFAB /* BMTLayoutConstraintInterpreter.m */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		585F92631D8028DA009132CD /* ViewController_iPhone4_S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ViewController_iPhone4_S.json; sourceTree = "<group>"; };
 		5864108E1D7FA14000C3DFAB /* BMLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLayoutConstraint.h; sourceTree = "<group>"; };
 		5864108F1D7FA14000C3DFAB /* BMTLayoutConstraintBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTLayoutConstraintBase.h; sourceTree = "<group>"; };
 		586410901D7FA14000C3DFAB /* BMTLayoutConstraintBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTLayoutConstraintBase.m; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		585F92621D8028DA009132CD /* drawable-iPhone4_S */ = {
+			isa = PBXGroup;
+			children = (
+				585F92631D8028DA009132CD /* ViewController_iPhone4_S.json */,
+			);
+			path = "drawable-iPhone4_S";
+			sourceTree = "<group>";
+		};
 		5864108D1D7FA14000C3DFAB /* BMLayoutConstraint */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +153,7 @@
 		589C3E2A1D7D9F0100E4764A /* layout */ = {
 			isa = PBXGroup;
 			children = (
+				585F92621D8028DA009132CD /* drawable-iPhone4_S */,
 				589C3E2B1D7D9F0100E4764A /* drawable-iPad */,
 				589C3E2C1D7D9F0100E4764A /* drawable-iPhone5_S_C_SE */,
 				589C3E2D1D7D9F0100E4764A /* drawable-iPhone6_S */,
@@ -244,6 +255,7 @@
 				589C3E041D7D92C100E4764A /* Assets.xcassets in Resources */,
 				589C3E4F1D7E573700E4764A /* Localizable.strings in Resources */,
 				589C3E4C1D7E56E200E4764A /* LaunchScreen.xib in Resources */,
+				585F92641D8028DA009132CD /* ViewController_iPhone4_S.json in Resources */,
 				589C3E361D7DA0E700E4764A /* ViewController_iPhone6P_S.json in Resources */,
 				589C3E321D7DA0BA00E4764A /* ViewController_iPhone5_S_C_SE.json in Resources */,
 				589C3E341D7DA0D200E4764A /* ViewController_iPhone6_S.json in Resources */,

@@ -24,6 +24,8 @@ _Pragma("clang diagnostic pop")
 #endif // #ifndef strongify
 
 typedef NS_ENUM(NSUInteger, BMTDeviceScreenWidth) {
+    kBMTDeviceScreenWidthIphone4 = 320,
+    kBMTDeviceScreenWidthIphone4s = 320,
     kBMTDeviceScreenWidthIphone5 = 320,
     kBMTDeviceScreenWidthIphone5s = 320,
     kBMTDeviceScreenWidthIphone6 = 375,
@@ -34,6 +36,8 @@ typedef NS_ENUM(NSUInteger, BMTDeviceScreenWidth) {
 };
 
 typedef NS_ENUM(NSUInteger, BMTDeviceScreenHeight) {
+    kBMTDeviceScreenHeightIphone4 = 480,
+    kBMTDeviceScreenHeightIphone4s = 480,
     kBMTDeviceScreenHeightIphone5 = 568,
     kBMTDeviceScreenHeightIphone5s = 568,
     kBMTDeviceScreenHeightIphone6 = 667,
@@ -44,6 +48,8 @@ typedef NS_ENUM(NSUInteger, BMTDeviceScreenHeight) {
 };
 
 // Device Constraint Name
+extern NSString *const kBMTLayoutConstraintDeviceiPhone4_S;
+
 extern NSString *const kBMTLayoutConstraintDeviceiPhone5_S_C_SE;
 
 extern NSString *const kBMTLayoutConstraintDeviceiPhone6_S;

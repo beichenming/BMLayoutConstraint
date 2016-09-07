@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'BMLayoutConstraint'
-    s.version      = '1.0.4'
+    s.version      = '1.0.5'
     s.summary      = 'a good UI layout adaptation tool.'
     s.homepage     = 'https://github.com/beichenming/BMLayoutConstraint'
     s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                    DESC
     s.authors      = { "beichenming" => "beichenming@163.com" }
     s.platform     = :ios, '8.0'
-    s.source       = { :git => "https://github.com/beichenming/BMLayoutConstraint.git", :tag => "1.0.4" }
+    s.source       = { :git => "https://github.com/beichenming/BMLayoutConstraint.git", :tag => "1.0.5" }
     s.source_files = 'BMLayoutConstraint/*.{h,m}', 'BMLayoutConstraint/Extension/*.{h,m}'
     s.framework    = 'UIKit','Foundation'
     s.requires_arc = true

@@ -40,12 +40,14 @@ $ pod install
 ## 示例
 使用BMLayoutConstraint的前提是我们的UI布局采用的是Mansory或者其他纯代码布局的方式，BMLayoutConstraint并不适合xib或者storyboard这种形式的布局方式，我们已Demo为例进行使用说明。
 
-`第一步：我们需要在工程下建立存放配置文件的目录，我们新建四个目录来对应我们的设备类型：`
+`第一步：我们需要在工程下建立存放配置文件的目录，我们新建五个目录来对应我们的设备类型：`
 <p align="left">
 <img src="device_dir.jpg" alt="BMLayoutConstraint" title="BMLayoutConstraint" width="300"/>
 </p>
 
 drawable-iPad(768 * 1024)
+
+drawable-iPhone4_S(320 * 480) 
 
 drawable-iPhone5_S_C_SE(320 * 568)
 
@@ -55,7 +57,7 @@ drawable-iPhone6P_S(414 * 736)
 
 因为iPad的尺寸比较多，所以我们目前使用了一个通用的尺寸表示，如果没有符合的尺寸就使用768 * 1024，未来会继续扩展。
 
-`第二步:针对需要适配的界面，建立对应名字的适配文件，例如我们要对ViewController中的元素布局进行适配就需要建立四个ViewController的json配置文件并以设备名结尾。`
+`第二步:针对需要适配的界面，建立对应名字的适配文件，例如我们要对ViewController中的元素布局进行适配就需要建立五个ViewController的json配置文件并以设备名结尾。`
 
 json配置文件格式是通过每一个控件都有自己的唯一ID，每个ID后面可以追加一个语言标志符用来区分同一设备下多语言的适配，可以分为两种情况：
 
