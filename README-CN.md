@@ -10,7 +10,7 @@
 <a href="http://beichenming.me"><img src="https://img.shields.io/badge/Blog-@%E5%8C%97%E8%BE%B0%E6%98%8E-red.svg?style=flat"></a>
 </p>
 
-BMLayoutConstraint是一套UI布局适配工具，通过JSON配置文件的形式能够快速适配不同设备以及多语言下的UI布局差异，适用于iOS以及Mac OSX应用程序的开发，通过Object-C编写。
+BMLayoutConstraint是一套UI布局适配工具，通过JSON配置文件的形式能够快速适配不同设备以及多语言下的UI布局差异，适用于iOS应用程序的开发，通过Object-C编写。
 
 BMLayoutConstraint还在不断完善中，欢迎大家一起。
 
