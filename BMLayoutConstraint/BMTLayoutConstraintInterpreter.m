@@ -114,7 +114,7 @@
     NSArray *languageArray = [NSLocale preferredLanguages];
     for (NSString *language in languageArray) {
         NSString *constraintDeviceLanguage =
-            [self.layoutConstraintLanguage.preferredLanguagesDict objectForKey:language];
+            [self.layoutConstraintLanguage getLayoutConstraintDeviceLanguageWithName:language];
         NSString *newViewConstraintId =
             [NSString stringWithFormat:@"%@_%@", viewConstraintId, constraintDeviceLanguage];
         if ([self cacheConstraintMapDictObjectForKey:newViewConstraintId]) {

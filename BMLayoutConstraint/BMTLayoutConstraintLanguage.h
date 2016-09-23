@@ -14,17 +14,9 @@
 #define BM_JA_US_STR        @"BM_JA_US"
 #define BM_ZH_HK_STR        @"BM_ZH_HK"
 #define BM_ZH_TW_STR        @"BM_ZH_TW"
-#define BM_EN_CA_STR        @"BM_EN_CA"
-#define BM_EN_US_1_STR      @"BM_EN_US_1"
-#define BM_EN_AU_STR        @"BM_EN_AU"
-#define BM_EN_IN_STR        @"BM_EN_IN"
-#define BM_EN_GB_STR        @"BM_EN_GB"
 #define BM_FR_US_STR        @"BM_FR_US"
 #define BM_KO_US_STR        @"BM_KO_US"
-#define BM_ES_419_STR       @"BM_ES_419"
 #define BM_DE_US_STR        @"BM_DE_US"
-#define BM_DE_DE_STR        @"BM_DE_DE"
-#define BM_FR_CA_STR        @"BM_FR_CA"
 #define BM_NL_US_STR        @"BM_NL_US"
 #define BM_IT_US_STR        @"BM_IT_US"
 #define BM_ES_US_STR        @"BM_ES_US"
@@ -34,10 +26,7 @@
 #define BM_RU_US_STR        @"BM_RU_US"
 #define BM_PL_US_STR        @"BM_PL_US"
 #define BM_TR_US_STR        @"BM_TR_US"
-#define BM_DE_AT_STR        @"BM_DE_AT"
-#define BM_DE_CH_STR        @"BM_DE_CH"
 #define BM_FR_FR_STR        @"BM_FR_FR"
-#define BM_FR_CH_STR        @"BM_FR_CH"
 #define BM_HU_US_STR        @"BM_HU_US"
 #define BM_CS_US_STR        @"BM_CS_US"
 #define BM_UK_US_STR        @"BM_UK_US"
@@ -63,6 +52,8 @@
 @property (nonatomic, copy, readonly) NSDictionary *preferredLanguagesDict;
 
 @property (nonatomic, copy, readonly) NSDictionary *defaultLanguagesDict;
+
+- (NSString *)getLayoutConstraintDeviceLanguageWithName:(NSString *)languageName;
 
 - (NSString *)getLayoutConstraintDefaultDeviceLanguage;
 
